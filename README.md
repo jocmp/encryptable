@@ -19,6 +19,14 @@ Your encrypted† credit card number is:
 
 Behind the scenes, the "attr_encryptable" DSL method relies on an accessor called "number_encrypted." The accessor can be implemented at runtime on a model using Rails' [Database schema](https://guides.rubyonrails.org/active_record_migrations.html#model-generators) file in a real application.
 
+### Running the tests
+
+To run the tests, enter the following command
+
+```
+bundle exec rake test
+```
+
 ## Commentary
 
 In general, encrypted data is more understandable when it is automatically decrypted to cleartext for a user. In a codebase, an application developer should be able to avoid encryption implementation details in the same way that a web browser user is shielded from manually decrypting HTTPS webpages. Just like the OSI model, a codebase can also have a [presentation layer](https://en.wikipedia.org/wiki/Presentation_layer) that is accessible when necessary but invisible in the common case.
