@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "encryptable"
+require "./test/credit_card"
+
+def main
+  puts "Enter a (fake) credit card number!"
+  credit_card_number = gets.chomp
+
+  credit_card = CreditCard.new
+  credit_card.number = credit_card_number
+
+  puts "Your encrypted† credit card number is:\n#{credit_card.number_encrypted}"
+  puts "†Not really encrypted!"
+end
+
+main
