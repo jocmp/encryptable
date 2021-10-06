@@ -2,7 +2,7 @@
 
 ![Main workflow](https://github.com/jocmp/encryptable/actions/workflows/main.yml/badge.svg)
 
-A module to show how DSLs work in Ruby applications. The library provides a binary that converts a credit card number when prompted using base conversion to mimick how encryption works within a real application. The Encryptable module is modified from the version in a talk given by [Ufuk Kayserilioglu](https://github.com/paracycle) at [RubyKaigi Takeout 2021](https://rubykaigi.org/2021-takeout/presentations/paracycle.html).
+A demo module to show how DSLs work in Ruby applications. The library provides a script that converts a credit card number when prompted using base conversion to mimick how encryption works within a real application. The Encryptable module is modified from the version in a talk given by [Ufuk Kayserilioglu](https://github.com/paracycle) at [RubyKaigi Takeout 2021](https://rubykaigi.org/2021-takeout/presentations/paracycle.html).
 
 ## Getting started
 
