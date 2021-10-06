@@ -15,7 +15,7 @@ Run `bin/encryptable` to receive a prompt to enter a fake credit card number:
 Enter a (fake) credit card number!
 411111111111111
 Your encrypted† credit card number is:
-3431313131313131313131313131310a
+34313131313131313131313131313131
 †Not really encrypted!
 ```
 
